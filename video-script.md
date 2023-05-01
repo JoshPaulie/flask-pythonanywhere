@@ -1,8 +1,8 @@
-# Getting your flask app on the internet with PythonAnywhere
+# Get your flask app on the internet with PythonAnywhere
 
 ## assumptions
-- have a flask app, ready to deploy
-  - the app should be simple
+- have a flask app, already being tracked on github ready to deploy
+  - because we'll be using the free tier, your app should require little maintenance and be smaller than 512mb in total
 - understand git and tracking a repo on github
 - basic understanding of bash
 
@@ -33,9 +33,16 @@
 This tutorial will use the free tier, and will demonstrate how to easily get your app onto PythonAnywhere
 
 ## tutorial
+Let's see where I'll be starting from
+
 1. Create your PythonAnywhere account
    1. verify your email
    2. if you have already created your first app and would like to deleted it to start over, follow the steps on screen
-2. Create your app
+2. Add a new web app to your PythonAnywhere account
    1. We'll use the flask preset
-3. 
+   2. And not change this path just yet
+3. Clone your app
+4. Edit `WSGI` file
+   1. Correct `project_home`
+   2. Correct app name
+5. Fix `source code` path
