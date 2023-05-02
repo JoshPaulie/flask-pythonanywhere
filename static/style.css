@@ -48,4 +48,9 @@ a:active {
 
 .accent-text {
   color: var(--ctp-macchiato-red);
+  transition: var(--transition-speed);
+}
+
+.accent-text:hover {
+  font-size: 1.2rem;
 }
